@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "framework": "nextjs",
+  "env": {
+    "AGENT_TYPE": "@anthropic",
+    "NODE_ENV": "production",
+    "INNGEST_DEV": "false"
+  },
+  "envPrefix": "NEXT_PUBLIC_",
+  "regions": ["iad1"],
+  "functions": {
+    "app/api/**": {
+      "memory": 3008,
+      "maxDuration": 300
+    }
+  },
+  "git": {
+    "deploymentEnabled": {
+      "main": true,
+      "claude/website-vercel-deploy-xm2899": true
+    }
+  },
+  "redirects": [],
+  "headers": [],
+  "rewrites": [],
+  "trailingSlash": false
+}

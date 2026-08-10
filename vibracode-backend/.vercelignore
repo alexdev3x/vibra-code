@@ -1,0 +1,8 @@
+e2b-cursor-template
+.git
+.gitignore
+README.md
+*.test.ts
+*.test.tsx
+.next
+node_modules
