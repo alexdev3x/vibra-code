@@ -3,7 +3,7 @@
   "buildCommand": "npm run build",
   "framework": "nextjs",
   "env": {
-    "AGENT_TYPE": "@anthropic",
+    "AGENT_TYPE": "claude",
     "NODE_ENV": "production",
     "INNGEST_DEV": "false"
   },
